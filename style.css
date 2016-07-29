@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Molle:400italic);
+
+body {
+  font-family: "Molle", monospace;
+  font-size: 1.5em;
+  color:#50403a;
+  background-color: #fce6bd;
+}
+
+#container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#heading {
+  color: #989765;
+  margin-bottom: 20px;
+}
+
+.info {
+  margin: auto;
+}
+
+#city,
+#temperature,
+#weather,
+.spacer {
+  display: inline-block;
+}
+
+.spacer {
+  width: 5%;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #989765;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #705444;
+}
+
+.info {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#image {
+  overflow: hidden;
+  background-size: contain;
+}
+
+#convert {
+  background-color: rgba(112, 84, 68, 0.5);
+  color:#50403a;
+  margin-top: 10px;
+  margin: auto;
+  width: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  float: center;
+  font-size: small;
+  border: 3px outset;
+  cursor: pointer;
+  cursor: hand;
+}
+#convert:hover,#convert:focus {
+  color:#fff;
+  background-color:#989765;
+}
+
+#footer {
+  margin-top: 50px;
+  font-size: 1em;
+}
