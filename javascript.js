@@ -2,24 +2,24 @@ $(document).ready(function() {
 
 var images = {
 
-  '01d': 'http://www.vangoghgallery.com/catalog/image/0671/Blossoming-Almond-Tree.jpg',
-  '01n': 'http://www.vangoghgallery.com/catalog/image/0467/Caf%C3%A9-Terrace-on-the-Place-du-Forum,-Arles,-at-Night,-The.jpg',
-  '02d': 'http://www.vangoghgallery.com/catalog/image/0240/Seine-Bridge-at-Asnieres,-The.jpg',
-  '02n': 'http://www.vangoghgallery.com/catalog/image/0474/Starry-Night-Over-the-Rhone.jpg',
-  '03d': 'http://www.vangoghgallery.com/catalog/image/0396/Gleize-Bridge-over-the-Vigueirat-Canal,-The.jpg',
-  '03n': 'http://www.vangoghgallery.com/catalog/image/0612/Starry-Night.jpg',
-  '04d': 'http://www.vangoghgallery.com/catalog/image/0261/View-of-the-Roofs-of-Paris.jpg',
-  '04n': 'http://www.vangoghgallery.com/catalog/image/0612/Starry-Night.jpg',
-  '09d': 'http://www.vangoghgallery.com/catalog/image/0650/Wheat-Field-in-Rain.jpg',
-  '09n': 'http://www.vangoghgallery.com/catalog/image/0650/Wheat-Field-in-Rain.jpg',
-  '10d': 'http://www.vangoghgallery.com/catalog/image/0811/Landscape-at-Auvers-in-the-Rain.jpg',
-  '10n': 'http://www.vangoghgallery.com/catalog/image/0372/Japonaiserie:-Bridge-in-the-Rain-(after-Hiroshige).jpg',
-  '11d': 'http://www.vangoghgallery.com/catalog/image/0575/Landscape-Under-a-Stormy-Sky.jpg',
-  '11n': 'http://www.vangoghgallery.com/catalog/image/1672/Twilight,-before-the-Storm:-Montmartre.jpg',
-  '13d': 'http://www.vangoghgallery.com/catalog/image/0260/Backyards-of-old-Houses-in-Antwerp-in-the-Snow.jpg',
-  '13n': 'http://www.vangoghgallery.com/catalog/image/0194/Parsonage-Garden-at-Nuenen-in-the-Snow,-The.jpg',
-  '50d': 'http://www.vangoghgallery.com/catalog/image/0188/Landscape-with-a-Church-at-Twilight.jpg',
-  '50n': 'http://www.vangoghgallery.com/catalog/image/0188/Landscape-with-a-Church-at-Twilight.jpg'
+  '01d': 'images/01d_w.jpg',
+  '01n': 'images/01n_w.jpg',
+  '02d': 'images/02d_w.jpg',
+  '02n': 'images/02n_w.jpg',
+  '03d': 'images/03d_w.jpg',
+  '03n': 'images/03n_w.jpg',
+  '04d': 'images/04d_w.jpg',
+  '04n': 'images/04d_w.jpg',
+  '09d': 'images/09d_w.jpg',
+  '09n': 'images/09d_w.jpg',
+  '10d': 'images/09d_w.jpg',
+  '10n': 'images/09d_w.jpg',
+  '11d': 'images/11d_w.jpg',
+  '11n': 'images/09d_w.jpg',
+  '13d': 'images/09d_w.jpg',
+  '13n': 'images/09d_w.jpg',
+  '50d': 'images/09d_w.jpg',
+  '50n': 'images/09d_w.jpg'
 }
 
   $.getJSON("http://ipinfo.io/json", function(ipinfo) {
