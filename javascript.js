@@ -22,14 +22,14 @@ var images = {
   '50n': 'images/09d_w.jpg'
 }
 
-  $.getJSON("http://ipinfo.io/json", function(ipinfo) {
+  $.getJSON("https://ipinfo.io/json", function(ipinfo) {
     var location = ipinfo.loc;
     var locArray = location.split(",");
     var lati = locArray[0];
     var longi = locArray[1];
     var degree = "C";
 
-    $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lati+"&lon="+longi+"&APPID=751e67b396383224a6e2936051179161", function(json) {
+    $.getJSON("https://api.openweathermap.org/data/2.5/weather?lat="+lati+"&lon="+longi+"&APPID=751e67b396383224a6e2936051179161", function(json) {
       var currentWeather = json.weather[0].main;
       $("#weather").html(currentWeather);
 
@@ -54,10 +54,10 @@ var images = {
         $('#degree').html(degree);
      });
 
-      var iconUrl = "http://openweathermap.org/img/w/" + icon + ".png";
+      var iconUrl = "https://openweathermap.org/img/w/" + icon + ".png";
       $('#icon').html("<img src='" + iconUrl + "'/>");
 
-      var testUrl = 'http://www.vangoghgallery.com/catalog/image/0612/Starry-Night.jpg';
+      var testUrl = 'https://www.vangoghgallery.com/catalog/image/0612/Starry-Night.jpg';
 
       var imageUrl = "'"+images[icon]+"'";
       console.log("imageUrl",imageUrl);
